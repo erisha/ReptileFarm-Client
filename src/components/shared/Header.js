@@ -52,7 +52,7 @@ const Header = ({ user }) => (
 	<Navbar bg='primary' variant='dark' expand='md'>
 		<Navbar.Brand className='m-2'>
             <Link to='/' style={linkStyle}>
-                Pets
+                Reptile Fragment
             </Link>
         </Navbar.Brand>
 		<Navbar.Toggle aria-controls='basic-navbar-nav' />
