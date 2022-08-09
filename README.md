@@ -29,12 +29,12 @@
 #Reptile Views
 
 |Route	|Description|
-|/	|pets index|
-|/pets/:id	|pet show page|
-|/addPet	n|ew pet page|
+|/	|reptiles index|
+|/reptiles/:id	|reptile show page|
+|/addReptile |new reptile page|
 
 
 #Snack Views
 
 |Route|	Description|
-|/addToy |new toy page|
+|/addSnack |new snack page|
