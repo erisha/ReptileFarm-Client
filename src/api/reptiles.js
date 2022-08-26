@@ -13,10 +13,7 @@ export const getOneReptile = (id) => {
 
 // CREATE
 export const createReptile = (user, newReptile) => {
-    // console.log('createReptile in api was hit')
     
-    // console.log('this is user', user)
-    // console.log('this is newReptile', newReptile)
 	return axios({
 		url: apiUrl + '/reptiles',
 		method: 'POST',
@@ -29,9 +26,7 @@ export const createReptile = (user, newReptile) => {
 
 // UPDATE
 export const updateReptile = (user, updatedReptile) => {
-    // console.log('createReptile in api was hit')
-
-    // console.log('this is user', user)
+    
     console.log('this is updatedReptile', updatedReptile)
 	return axios({
 		url: `${apiUrl}/reptiles/${updatedReptile.id}`,
